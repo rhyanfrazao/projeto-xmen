@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Men</title>
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="imagens/logo.svg" alt="Logo X-Men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo">Selecione um Personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem selecionado" id="ciclope" data-name="Ciclope" data-description="Mutante capaz de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los sem os óculos especiais">
+                    <img src="imagens/card-ciclope.jpg" alt="Ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" data-description="Mutante nível Omega e o principal avatar da força Fênix, no qual manifesta poderes cósmicos. Possui telepatia e telecinese">
+                    <img src="imagens/card-jean-grey.jpg" alt="Jean Grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra" data-description="Mutante capaz de atravessas todo e qualquer objeto sólido, ela também consegue transportar pessoas pelo espaço-tempo contínuo">
+                    <img src="imagens/card-lince-negra.jpg" alt="Lince Negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto" data-description="Mutante capaz de controlar os campos eletromagnéticos ao seu redor, incluindo controle de qualquer metal incluindo o vibranium">
+                    <img src="imagens/card-magneto.jpg" alt="Magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno" data-description="Mutante capaz de se teleportar para qualquer lugar desde que ele veja, ou conheça, além de ser azul">
+                    <img src="imagens/card-noturno.jpg" alt="Noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade" data-description="Mutante capaz de manipular o clima e o tempo nos arredores, causando tempestades de raios e descargas elétricas">
+                    <img src="imagens/card-tempestade.jpg" alt="Tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira" data-description="Mutante capaz de roubar os poderes dos outros mutantes junto com sua força vital. Seu toque mata mutantes e mundanos">
+                    <img src="imagens/card-vampira.jpg" alt="Vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine" data-description="Mutante capaz de se curar de qualquer ferimento em segundos, longevidade sobrenatural e garras saídas das mãos">
+                    <img src="imagens/card-wolverine.jpg" alt="Wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="imagens/card-ciclope.png" alt="Ciclope Selecionado">
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" id="nome-personagem">Ciclope</h2>
+                <p class="descricao-personagem" id="descricao-personagem">Mutante capaz de disparar rajadas ópticas por um acidente que aconteceu com ele quando criança, mas não consegue controlá-los sem os óculos especiais</p>
+            </div>
+        </section>
+    </main>
+    <script src="javascript/index.js"></script>
+</body>
+</html>
